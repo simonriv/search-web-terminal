@@ -9,9 +9,10 @@ Simple terminal program to open the browser and generate a search in windows.
 ### How to install
 
 1. you must first clone the [repository](https://github.com/simonriv/search-web-terminal).
-2. copy the dist folder and move it to the place where you prefer to have the application I have it in "C:\Program Files".
-3. añade a tu path la ruta donde esta la carpeta del programa ejemplo "C:\Program Files\search"
+2. Open an instance of your installed terminal or windows powershell as administrator and go to the repository you just cloned, then run the installation.ps1 file.
+3. then close and reopen the terminal to refresh the environment variables.
 
+If the installation mentions that I can't add the path to the path you will have to do it manually.
 Now you can use it using the word search.
 
 ### How to use
