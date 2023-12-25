@@ -63,6 +63,6 @@ def verify_search(text):
 def exec_search(search):
     if search != None:
         config = read_config()
-        return os.system(f"start {config['browser']} {search}")
+        return os.system(f"start {BROWSERS[config['browser']]} {search}")
     else:
         return 'the search cannot be empty'
